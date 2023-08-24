@@ -58,7 +58,9 @@ public class Java086Test {
          String[] a2 = new String[]{"yash","romit","yash"};
          String conn=obj.con(a1, a2);
          
-         System.out.print(conn);
+         String chek="romit,yash,anvi";
+         
+         assertEquals(chek, conn);
        
         
     }
